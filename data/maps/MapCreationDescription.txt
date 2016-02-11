@@ -1,0 +1,19 @@
+map:
+1 Blue Wall
+5 Normal Door
+B Key Door
+A Exit
+z Player
+0 Empty Space
+
+mapsprites:
+1 = Pot
+5 = Chair
+6 = Pillar
+60 = Skull
+61 = Furby
+30 = MediPack
+31 = Ammo
+32 = Key
+33 = Machine Gun
+34 = MGAmmo

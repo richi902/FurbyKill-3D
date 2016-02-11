@@ -1,0 +1,67 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: furby xbox, Configuration: Release|Xbox -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "h:\Dev\Furby_Code_Base\furbyxbox\Release\RSP000002.rsp" with contents
+[
+/Ox /Oy /D "NDEBUG" /D "_XBOX" /D "_MBCS" /GF /FD /EHsc /MT /GS /Gy /arch:SSE /Fo"Release/" /Fd"Release/vc70.pdb" /W3 /c /Zi /TP
+.\x_Game.cpp
+]
+Creating command line "cl.exe @h:\Dev\Furby_Code_Base\furbyxbox\Release\RSP000002.rsp /nologo"
+Creating temporary file "h:\Dev\Furby_Code_Base\furbyxbox\Release\RSP000003.rsp" with contents
+[
+/OUT:"Release/furby xbox.exe" /INCREMENTAL:NO /NOLOGO /DEBUG /PDB:"Release/furby xbox.pdb" /MAP /OPT:REF /OPT:ICF /RELEASE /subsystem:xbox /MACHINE:I386 libsdlx.lib sdlmain.lib sdl_ttf.lib sdl_image.lib sdl_mixer.lib libsmpegx.lib xapilib.lib d3d8.lib d3dx8.lib xgraphics.lib dsound.lib dmusic.lib xacteng.lib xsndtrk.lib xvoice.lib xonlines.lib xboxkrnl.lib
+.\Release\Door.obj
+.\Release\Furby.obj
+.\Release\Main.obj
+.\Release\Player.obj
+.\Release\Raycaster.obj
+.\Release\Splash.obj
+.\Release\Sprite.obj
+.\Release\x_Framework.obj
+.\Release\x_Game.obj
+]
+Creating command line "link.exe @h:\Dev\Furby_Code_Base\furbyxbox\Release\RSP000003.rsp"
+Creating temporary file "h:\Dev\Furby_Code_Base\furbyxbox\Release\RSP000004.rsp" with contents
+[
+/OUT:"h:\Dev\Furby_Code_Base\furbyxbox\Release\furby xbox.xbe" /stack:"65536" ".\Release\furby xbox.exe"
+]
+Creating command line "imagebld.exe @h:\Dev\Furby_Code_Base\furbyxbox\Release\RSP000004.rsp /nologo"
+Creating temporary file "h:\Dev\Furby_Code_Base\furbyxbox\Release\RSP000005.rsp" with contents
+[
+"h:\Dev\Furby_Code_Base\furbyxbox\Release\furby xbox.xbe" "xe:\furby xbox\furby xbox.xbe"
+]
+Creating command line "xbecopy.exe @h:\Dev\Furby_Code_Base\furbyxbox\Release\RSP000005.rsp /nologo"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+x_Game.cpp
+h:\Dev\Furby_Code_Base\furbyxbox\../Source\Raycaster.h(74) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+h:\Dev\Furby_Code_Base\furbyxbox\../Source\Raycaster.h(75) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+x_Game.cpp(234) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+x_Game.cpp(259) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+x_Game.cpp(160) : warning C4101: 'i' : unreferenced local variable
+x_Game.cpp(661) : warning C4101: 'setup' : unreferenced local variable
+x_Game.cpp(862) : warning C4018: '>' : signed/unsigned mismatch
+Linking...
+Creating Xbox Image...
+IMAGEBLD : warning IM1040: mismatched map file 'h:\Dev\Furby_Code_Base\furbyxbox\Release\furby xbox.map'
+IMAGEBLD : warning IM1029: library XKBD is unapproved
+IMAGEBLD : warning IM1043: feature XMOUSE   is unapproved
+IMAGEBLD : warning IM1030: this image may not be accepted for certification
+Copying files to the Xbox...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://h:\Dev\Furby_Code_Base\furbyxbox\Release\BuildLog.htm"
+furby xbox - 0 error(s), 11 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

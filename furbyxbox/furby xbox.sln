@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "furby xbox", "furby xbox.vcproj", "{C58DB4AD-7A0F-4A1C-936B-D09AE3635AE1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Profile = Profile
+		Profile_FastCap = Profile_FastCap
+		Release = Release
+		Release_LTCG = Release_LTCG
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C58DB4AD-7A0F-4A1C-936B-D09AE3635AE1}.Debug.ActiveCfg = Debug|Xbox
+		{C58DB4AD-7A0F-4A1C-936B-D09AE3635AE1}.Debug.Build.0 = Debug|Xbox
+		{C58DB4AD-7A0F-4A1C-936B-D09AE3635AE1}.Profile.ActiveCfg = Profile|Xbox
+		{C58DB4AD-7A0F-4A1C-936B-D09AE3635AE1}.Profile.Build.0 = Profile|Xbox
+		{C58DB4AD-7A0F-4A1C-936B-D09AE3635AE1}.Profile_FastCap.ActiveCfg = Profile_FastCap|Xbox
+		{C58DB4AD-7A0F-4A1C-936B-D09AE3635AE1}.Profile_FastCap.Build.0 = Profile_FastCap|Xbox
+		{C58DB4AD-7A0F-4A1C-936B-D09AE3635AE1}.Release.ActiveCfg = Release|Xbox
+		{C58DB4AD-7A0F-4A1C-936B-D09AE3635AE1}.Release.Build.0 = Release|Xbox
+		{C58DB4AD-7A0F-4A1C-936B-D09AE3635AE1}.Release_LTCG.ActiveCfg = Release_LTCG|Xbox
+		{C58DB4AD-7A0F-4A1C-936B-D09AE3635AE1}.Release_LTCG.Build.0 = Release_LTCG|Xbox
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
